@@ -1,0 +1,112 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgb(144, 12, 141);
+    background-size: cover;
+    justify-content: center;
+}
+
+.prueba-pruebisima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('https://i.pinimg.com/originals/09/c3/d9/09c3d9e2a5c457f3ec1fd89057fc9b88.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div {
+
+    padding: 0.2rem;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    width: 50%;
+}
+
+.hero-div h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2f324f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-div h3 {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    width: 200%;
+}
+
+.action-button {
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.8vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 40% !important;
+    max-width: 90%;
+}
+
+.action-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+
+.exit-button {
+    margin-top: 10px;
+    background-color: #c30623 !important;
+    color: white;
+    border-color: #c30623 !important;
+    height: 60px;
+    max-width: 300px;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 300%;
+}
+
+.exit-button:hover {
+    background-color: #b20625 !important;
+    border-color: #b20625 !important;
+}
+
+.logoImg {
+    width: 90%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.action-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+
+
+
+

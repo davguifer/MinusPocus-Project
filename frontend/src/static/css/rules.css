@@ -1,0 +1,24 @@
+.rules-action-button {
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.8vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 40% !important;
+    max-width:20%;
+
+}
+.rules-action-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+.rules-img{
+    width: 33vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}

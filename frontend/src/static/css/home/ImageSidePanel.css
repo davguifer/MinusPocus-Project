@@ -1,0 +1,50 @@
+.right-panel{
+    position: fixed;
+    margin-left: 88%;
+    overflow: clip;
+    animation-name: slideDown;
+    animation-duration: 500s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.left-panel{
+    margin-right: 88%;
+    overflow: clip;
+    position: fixed;
+    animation-name: slideUp;
+    animation-duration: 500s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(45%);
+    }
+    50% {
+        transform: translateY(-40%);
+    }
+    100% {
+        transform: translateY(45%);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-40%);
+    }
+    50% {
+        transform: translateY(45%);
+    }
+    100% {
+        transform: translateY(-40%);
+    }
+}
+
+.panelImg {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}

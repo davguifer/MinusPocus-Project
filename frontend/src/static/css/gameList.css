@@ -1,0 +1,139 @@
+.game-list-background {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('https://i.pinimg.com/originals/09/c3/d9/09c3d9e2a5c457f3ec1fd89057fc9b88.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-list-text {
+    font-size: 3vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    align-self: center;
+    color: #232323;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(3px);
+    border-radius: 1vw;
+}
+
+.position-items {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 4vw !important;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.table-header-game-list {
+    font-size: 1vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    align-self: center;
+    color: #232323;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: #262627 solid medium !important;
+    background: rgba(222, 189, 225, 0.84) !important;
+}
+
+.table-game-list {
+    font-size: 0.8vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    align-self: center;
+    color: #232323;
+    padding-left: 1%;
+    border-left: #262627 solid medium !important;
+    border-right: #262627 solid medium !important;
+    padding-right: 1%;
+    background: rgba(222, 189, 225, 0.57) !important;
+}
+.table-game{
+    border-bottom: #262627 solid medium !important;
+    align-self: center;
+    margin-top: 1%;
+}
+.create-button {
+    display: flex;
+    font-size: 1.5vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 20% !important;
+    max-width: 90%;
+    align-self: center;
+}
+
+.create-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+.status-text{
+    align-self: center;
+    color: #90061b;
+    background: rgba(238, 238, 238, 0);
+    padding: 1%;
+    backdrop-filter: blur(3px) !important;
+    font-family: "Immortal" !important;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.game-exit-button {
+    background-color: #c30623 !important;
+    color: white;
+    border-color: #c30623 !important;
+    font-size: 0.5vw !important;
+    transition: background-color 0.3s;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    width: 25%;
+    max-width: 100%;
+}
+.game-exit-button:hover{
+    background-color: #b20625 !important;
+    border-color: #b20625 !important;
+}
+.game-edit-button{
+    background-color: #0674c3 !important;
+    color: white;
+    border-color: #0674c3 !important;
+    font-size: 0.5vw !important;
+    transition: background-color 0.3s;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    width: 25%;
+    max-width: 100%;
+}
+
+.table-normal-button {
+    display: flex;
+    font-size: 0.5vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 25% !important;
+    max-width: 100%;
+}
+
+.table-normal-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+

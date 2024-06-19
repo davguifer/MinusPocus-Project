@@ -1,0 +1,130 @@
+.lobby-action-button {
+    font-size: 2vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 26% !important;
+    max-width:90%;
+}
+.lobby-action-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+.start-button {
+    font-size:1.5vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    margin-top: 10px;
+    background-color: #2b8d12 !important;
+    color: white;
+    border-color: #2b8d12 !important;
+    transition: background-color 0.3s;
+    width: 20%;
+    max-width: 70%;
+}
+.start-button:hover{
+    background-color: #1b5b0b !important;
+    border-color: #1b5b0b !important;
+}
+.lobby-exit-button {
+    background-color: #c30623 !important;
+    color: white;
+    border-color: #c30623 !important;
+    font-size: 1.5vw !important;
+    max-width:50%;
+    transition: background-color 0.3s;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    width: 12%;
+    position: absolute;
+    bottom: 1vw !important;
+    left: 1vw !important;
+}
+
+.lobby-exit-button:hover{
+    background-color: #b20625 !important;
+    border-color: #b20625 !important;
+}
+
+.lobby-button-action{
+    display: flex;
+    flex-direction: column;
+}
+.lobby-background{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('https://i.pinimg.com/originals/09/c3/d9/09c3d9e2a5c457f3ec1fd89057fc9b88.jpg');
+    background-size: cover;
+}
+
+.position-items{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 4vw !important;
+}
+.lobby-Game-text {
+    font-size: 3vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    align-self: center;
+    color: #232323;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    border-radius: 1vw;
+}
+.lobby-player-list {
+    margin-top: 4vw;
+    align-self: center;
+    display: compact;
+    max-width: 55%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 5vw;
+}
+
+.lobby-avatar {
+    width: 8vw;
+    height: 8vw;
+    object-fit: cover;
+    position: relative;
+    margin: auto;
+    display: block;
+    border:0.3vw solid #111111;
+    border-radius: 25%;
+}
+.lobby-counter{
+    font-size:1.1vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bolder;
+    color: #070309;
+    background: rgba(253, 253, 253, 0);
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 25px;
+    animation: flash 2s infinite linear;
+
+}
+@keyframes flash {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+

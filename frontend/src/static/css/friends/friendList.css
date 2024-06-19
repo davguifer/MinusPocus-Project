@@ -1,0 +1,125 @@
+.friend-popup-container{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.friend-list-header {
+    display: flex;
+    flex-direction: row;
+}
+.friend-list {
+    max-height: 60%;
+    overflow-y: auto;
+}
+.friend-list.visible {
+    background-color: #cccccc;
+    display: block;
+    animation: open 500ms linear;
+    opacity: 100%;
+    border-radius: 5%;
+}
+
+.friend-list.hidden {
+    background-color: #cccccc;
+    animation: close 500ms linear;
+    opacity: 0;
+    border-radius: 5%;
+}
+.friend-list.ini-state{
+}
+.friend-ico{
+    background-color: #dadddf;
+    border-radius: 25%;
+    border: 0.3vw solid #111111;
+    width: 6vw;
+    transition: background-color 0.3s ease;
+}
+.friend-ico:hover{
+    background-color: #bfc1c5;
+}
+
+.pop-up-header{
+    font-size:2.5vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bolder;
+    color: #111111;
+}
+
+.friend-close-button {
+    background-color: #c30623 !important;
+    color: white;
+    border-color: #c30623 !important;
+    font-size: 50% !important;
+    transition: background-color 0.3s;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    border-radius: 25% !important;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    position: absolute;
+    top:2%;
+    right: 2%;
+}
+.friend-close-button:hover{
+    background-color: #b20625 !important;
+    border-color: #b20625 !important;
+}
+.friend-avatar{
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
+    border: 0.15vw solid #111111;
+    border-radius: 50%;
+}
+
+.friend-username{
+    font-size:1.3vw !important;
+    font-family: "Immortal" !important;
+    margin-left: 0.6vw;
+    font-weight: bold;
+    color: #111111;
+}
+.friend-invite-button{
+    position: absolute;
+    right: 5%;
+    color: #f6f6f6 !important;
+    font-size:1vw !important;
+    font-family: "Immortal" !important;
+    font-weight: bolder;
+    background-color: #4aa6e8 !important;
+    border-color: #4aa6e8 !important;
+}
+.friend-invite-button:hover{
+    background-color: #3988c1 !important;
+    border-color: #3988c1 !important;
+}
+
+@keyframes open {
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+        background-color: #909090;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 100%;
+        background-color: #cccccc;
+    }
+}
+@keyframes close {
+    0%{
+        transform: translateY(0%);
+        opacity: 100%;
+        background-color: #cccccc;
+    }
+    100%{
+        transform: translateY(100%);
+        opacity: 0;
+        background-color: #909090;
+    }
+}

@@ -1,0 +1,252 @@
+.fondo-Coliseo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -4;
+    background-image: url("../images/Coliseo.jpg") !important;
+    max-width: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(2, 2, 2, 0.87);
+    resize: both;
+}
+
+.field-info-text {
+    font-family: "Immortal";
+    font-weight: bolder;
+    font-size: 0.9vw;
+    color: #eeeeee;
+    backdrop-filter: blur(4px);
+}
+
+.field-info-text.round-text {
+    font-size: 1.5vw;
+    background-color: rgba(7, 3, 9, 0.78);
+
+}
+
+.field-info-text.remaining-info {
+    width: fit-content;
+    max-width: max-content;
+    margin-left: 0.5vw;
+}
+
+.text-position {
+    display: compact;
+}
+
+.field-avatar {
+    position: relative;
+    width: 7vw;
+    height: 7vw;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border: 4px solid #111111;
+    border-radius: 25%;
+    resize: both;
+    margin-top: -3%;
+}
+
+.field-username {
+    font-family: "Immortal";
+    font-weight: bolder;
+    font-size: 1vw;
+    align-self: center;
+    align-items: center;
+
+}
+
+.enemy-wizards {
+    max-width: 50%;
+    width: 11%;
+    margin: 0.2vw;
+    border: #070309 solid medium;
+    border-radius: 10px;
+}
+
+.enemy-info {
+    color: #eeeeee;
+    padding: 0.2vw;
+    font-family: "Immortal";
+    font-weight: bolder;
+    font-size: 0.8vw;
+    background: transparent;
+    margin-left: 488%;
+}
+
+.vote-info {
+    color: #eeeeee;
+    padding: 0.2vw;
+    font-family: "Immortal";
+    font-weight: bolder;
+    font-size: 0.8vw;
+    align-self: center;
+}
+
+.enemy-image {
+    display: compact;
+    width: 2vw;
+    height: 2vw;
+    background: transparent;
+    margin-left: 460%;
+}
+
+.spell-image {
+    position: relative;
+    width: 5vw;
+    border-radius: 10px;
+    align-self: center !important;
+    padding: 0.2vw;
+}
+
+.discard-button {
+    font-size: 0.8vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 4.5vw;
+    align-self: center;
+}
+
+.discard-button:hover {
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+
+.discard-button.player {
+    width: 5% !important;
+    margin-left: -2%;
+}
+
+.spell-buttons {
+    align-self: center;
+    font-size: 0.8vw !important;
+    font-weight: bold !important;
+    font-family: "Immortal" !important;
+    width: 4vw;
+}
+
+.card-select-button {
+    font-size: 0.8vw !important;
+    font-weight: bold !important;
+    font-family: "Immortal" !important;
+    background-color: #3a3a3a !important;
+    border-color: #3a3a3a !important;
+    transition: background-color 0.3s;
+    max-width: 100%;
+    color: white !important;
+    width: 50% !important;
+    height: auto;
+    align-self: center;
+}
+.card-select-button:hover{
+    background-color: #029252 !important;
+    border-color: #029252 !important;
+}
+
+.card-select-button.sign {
+    width: 80%;
+}
+.card-select-button.deselect{
+    background-color: #029252 !important;
+    border-color: #029252 !important;
+}
+
+.ingredient-images {
+    position: relative;
+    width: 6vw;
+    border-radius: 10px;
+    align-self: center !important;
+    padding: 0.2vw;
+    resize: both;
+}
+
+.stats-images {
+    display: compact;
+    width: 2.2vw;
+    height: 2.2vw;
+    background: transparent;
+    margin: auto;
+}
+
+.stats-info {
+    color: #eeeeee;
+    padding: 0.2vw;
+    font-family: "Immortal";
+    font-weight: bolder;
+    font-size: 1vw;
+    background: transparent;
+    margin: auto;
+}
+.vote-button{
+    font-size: 1vw !important;
+    background-color: #976DD0 !important;
+    color: white;
+    border-color: #976DD0 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width:9vw;
+    align-self: center;
+}
+.vote-button:hover{
+    background-color: #774c9e !important;
+    border-color: #774c9e !important;
+}
+.exit-button{
+    font-size: 0.8vw !important;
+    background-color: #ab0000 !important;
+    color: white;
+    border-color: #ab0000 !important;
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s;
+    width: 7%;
+    height: 5%;
+}
+.exit-button:hover{
+    background-color: #740000 !important;
+    border-color: #740000    !important;
+}
+.exit-button.not-alive{
+    margin-top: 10%;
+}
+.wizards {
+    max-width: 5vw;
+    width: 20%;
+    margin: 0.2vw;
+    border: #070309 solid medium;
+    border-radius: 10px;
+}
+.number-card-text{
+    position: absolute;
+    color: rgb(101, 6, 153);
+    font-family: "Immortal" !important;
+    font-weight: bold !important;
+    font-size: 4vw;
+    align-self: center;
+    margin-top: 3.2vw;
+    animation: flash 2s infinite linear;
+}
+
+@keyframes flash {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
