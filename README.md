@@ -1,3 +1,7 @@
+# MinusPocus Video Game - Startup Information
+
+This project represents the development of a video game called "MinusPocus" as part of the Design and Testing 1 (DP1) course in the third year of the Software Engineering program at the University of Seville. "MinusPocus" has been developed using React Petclinic as its foundation.
+
 # React Petclinic
 Small project based on spring-petclinic for teaching SPA architectures with react, java and spring developer for teaching DP1 at the Software Engineering degree of University of Sevilla.
 
@@ -16,7 +20,7 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 
 ```
-git clone https://github.com/gii-is-DP1/spring-petclinic.git
+git clone https://github.com/davguifer/MinusPocus-Project
 cd spring-petclinic
 ./mvnw package
 java -jar target/*.jar
@@ -54,7 +58,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-git clone https://github.com/gii-is-DP1/spring-petclinic.git
+git clone https://github.com/davguifer/MinusPocus-Project
 ```
 2) Inside Eclipse or STS
 ```
@@ -94,3 +98,25 @@ You can start the development server to see frontend using the command (maybe yo
 npm start
 ```
 You can then access the PetClinic frontend at [http://localhost:3000](http://localhost:3000)
+
+# Procedure after game startup
+
+## List of Users with ADMIN Role:
+- davguifer
+- SrmisterL
+- davvarmun
+- rafmolgar2
+- alevarmun1
+- cargarort3
+
+## List of Users with PLAYER Role:
+- Mario
+- Luigi
+- Wario
+- Waluigi
+- BabyDaisy
+
+For any user, the password is: `4dm1n`. When logging in, make sure to log out first and then log in as one of the mentioned users above.
+
+Tests should be executed in block by entity. Running them all simultaneously may cause errors in the services due to database inconsistencies, but executing them one by one will work perfectly.
+
